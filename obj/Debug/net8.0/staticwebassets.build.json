@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B0cftOJktbNyiKAel0baHmEWg1ddwrbj2CTuaYA4+kY=",
+  "Hash": "vQgXbTlABzNLT9J2pxG2ssobHdTi8v/iNQVOueLaAY4=",
   "Source": "Assessment",
   "BasePath": "_content/Assessment",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Visual Studio\\Dot Net\\Assessment\\Assessment\\wwwroot\\data\\stock_market_data.json",
+      "SourceId": "Assessment",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio\\Dot Net\\Assessment\\Assessment\\wwwroot\\",
+      "BasePath": "_content/Assessment",
+      "RelativePath": "data/stock_market_data.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\stock_market_data.json"
     },
     {
       "Identity": "D:\\Visual Studio\\Dot Net\\Assessment\\Assessment\\wwwroot\\favicon.ico",
@@ -1193,25 +1212,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "D:\\Visual Studio\\Dot Net\\Assessment\\Assessment\\wwwroot\\stock_market_data.json",
-      "SourceId": "Assessment",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio\\Dot Net\\Assessment\\Assessment\\wwwroot\\",
-      "BasePath": "_content/Assessment",
-      "RelativePath": "stock_market_data.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\stock_market_data.json"
     }
   ]
 }
