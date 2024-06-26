@@ -1,0 +1,49 @@
+﻿@model Assessment.Models.sqlModel 
+
+<form method="post">
+    <div class="border p-3 mt-4">
+
+        <div class="row pb-2">
+            <h2 class="text-danger">Delete Item</h2>
+            <br />
+        </div>
+        <div class="mb-3">
+            <label> Date</label>
+            <input asp-for="date" type="date" disabled class="form-control" />
+
+        </div>
+        <div class="mb-3">
+            <label> Trade Code</label>
+            <input asp-for="trade_code" type="text" disabled class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label> High</label>
+            <input asp-for="high" type="text" disabled class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label> Low</label>
+            <input asp-for="low" type="text" disabled class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label> Open</label>
+            <input asp-for="open" type="text" disabled class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label> Close</label>
+            <input asp-for="close" type="text" disabled class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label> Volume</label>
+            <input asp-for="volume" type="text" disabled class="form-control" />
+        </div>
+        <div class="form-group p-2">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <a asp-action="Index" class="btn btn-outline-secondary">Back to List</a>
+        </div>
+
+        <div>
+            
+        </div>
+
+    </div>
+</form>
