@@ -23,7 +23,7 @@ namespace Assessment.Controllers
             _env = env;
         }
 
-       
+       // Import Jsondata save in Database
         public async Task<IActionResult> ImportJsonData()
         {
             string filePath = Path.Combine(_env.WebRootPath, "data", "stock_market_data.json");
@@ -46,12 +46,14 @@ namespace Assessment.Controllers
             return BadRequest("Failed to import data.");
         }
 
+        // Show the list of Data
         public async Task<IActionResult> Index()
         {
             var data = await _context.sqlModels.ToListAsync();
             return View(data);
         }
 
+        // Create Item
         public IActionResult Create()
         {
             return View();
@@ -66,6 +68,7 @@ namespace Assessment.Controllers
 
         }
 
+        //Edit item
         public IActionResult Edit(int ?id)
         {
             if (id == null)
@@ -84,7 +87,7 @@ namespace Assessment.Controllers
             return RedirectToAction("Index");
         }
 
-        
+        //Delete item
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
